@@ -3,71 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ÁõÓêæÌµÄ½±×´</title>
+    <title>åˆ˜é›¨å«£çš„å¥–çŠ¶</title>
     <style>
-        * {
+        *{
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            box-sizing:border-box;
+        }
+        
+        body{
+            display:flex;
+            justify-content:center;
+            align-content:center;
+            min-height:100vh;
+            font-family:"å¾®è½¯é›…é»‘","å®‹ä½“",serif;
+
         }
 
-        body {
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            min-height: 100vh;
-            font-family: "Î¢ÈíÑÅºÚ","ËÎÌå",serif;
+        .certificate{
+            width:800px;
+            height:600px;
+            background:url("certificate.png") no-repeat center;
+            background-size :100% 100%;
+            position:relative;
         }
 
-        .certificate {
-            width: 800px;
-            height: 600px;
-            background: url("images/certificate.png") no-repeat center;
-            background-size: 100% 100%;
-            position: relative;
+        .recipient{
+            position:absolute;
+            top:35%;
+            left:16%;
+            font-size:30px;
+            font-weight:bold;
+            color:#8b4000;
         }
 
-        .recipient {
-            position: absolute;
-            top: 35%;
-            left: 16%;
-            font-size: 30px;
-            font-weight: bold;
-            color: #8b4000;
+        .content{
+            position:absolute;
+            top:45%;
+            left:15%;
+            width:70%;
+            font-size:22px;
+            color:#5c1a1a;
+            line-height:1.8;
+            text-align:center;
         }
 
-        .content {
-            position: absolute;
-            top: 45%;
-            left: 15%;
-            width: 70%;
-            font-size: 22px;
-            color: #5c1a1a;
-            line-height: 1.8;
-            text-align: center;
-        }
-
-        .signature {
-            position: absolute;
-            bottom: 20%;
-            right: 25%;
-            font-size: 24px;
-            color: #8b0000;
-            text-align: right;
+        .signature{
+            position:absolute;
+            bottom:20%;
+            right:25%;
+            font-size:24px;
+            color:#8b0000;
+            text-align:right;
         }
     </style>
 </head>
 <body>
     <div class="certificate">
-        <div class="recipient">ÁõÓêæÌĞ¡ÅóÓÑ:</div>
+        <div class="recipient">åˆ˜é›¨å«£å°æœ‹å‹:</div>
         <div class="content">
-            ×£ºØÄãÔÚ2025ÄêÏÂÑ§ÆÚÆÚÖĞ¸ßµÈÊıÑ§¿¼ÊÔÖĞÈ¡µÃ82·ÖµÄÓÅÒì³É¼¨£¡ÌØ·¢´Ë½±×´£¬ÒÔ±í×£ºØ!ÄãÔÚĞ¤óãÌìĞÄÖĞÓÀÔ¶ÊÇ×î°ôµÄ±¦±¦!×î¿É°®µÄæÌæÌ¹«Ö÷£¡
+                ç¥è´ºä½ åœ¨2025å¹´ä¸‹å­¦æœŸæœŸä¸­é«˜ç­‰æ•°å­¦è€ƒè¯•ä¸­å–å¾—82åˆ†çš„ä¼˜å¼‚æˆç»©ï¼ç‰¹å‘æ­¤å¥–çŠ¶ï¼Œä»¥è¡¨ç¥è´º!ä½ åœ¨è‚–ç­±å¤©å¿ƒä¸­æ°¸è¿œæ˜¯æœ€æ£’çš„å®å®!æœ€å¯çˆ±çš„å«£å«£å…¬ä¸»ï¼
         </div>
         <div class="signature">
-            ×îÏ²»¶ÄãµÄĞ¤óãÌì<br>
-            2025Äê12ÔÂ
+            æœ€å–œæ¬¢ä½ çš„è‚–ç­±å¤©<br>
+            2025å¹´12æœˆ
         </div>
     </div>
 </body>
-
 </html>
